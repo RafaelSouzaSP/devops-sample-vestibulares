@@ -4,8 +4,7 @@
 <?
 $servidor = '127.0.0.1:51898';
 $banco = 'localdb';
-$usuario = 'root';
-$senha = 'root';
+$usuario = 'azure@localhost';
 $link = mysql_connect($servidor, $usuario, $senha);
 $db = mysql_select_db($banco,$link);
 if(!$link)
